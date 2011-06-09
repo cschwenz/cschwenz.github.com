@@ -1,24 +1,29 @@
-<?xml version="1.0" ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
-<title>lib::tree</title>
-<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<link rev="made" href="mailto:" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Calvin Schwenzfeier's GitHub Projects - lib::tree|</title>
+  <link href="/jci/css/style.css" rel="stylesheet" type="text/css" />
 </head>
-
-<body style="background-color: white">
-<table border="0" width="100%" cellspacing="0" cellpadding="3">
-<tr><td class="block" style="background-color: #cccccc" valign="middle">
-<big><strong><span class="block">&nbsp;lib::tree</span></strong></big>
-</td></tr>
-</table>
-
+<body>
+<div id="wrapper">
+  <div id="header">
+    <div id="banner">
+      <h1><a href="index.html">Calvin Schwenzfeier's <span class="red">GitHub</span> Projects</a></h1>
+    </div>
+  </div>
+  
+  <div id="topmenu">
+    <ul><li><big><strong>lib::tree</strong></big></li></ul>
+  </div>
+  
+  <div id="main">
+    <div id="brdcrmb"><a href="/">Home</a>&nbsp;|&nbsp;lib::tree</div>
+    <div id="content">
 <p><a name="__index__"></a></p>
 <!-- INDEX BEGIN -->
-
 <ul>
-
 	<li><a href="#name">NAME</a></li>
 	<li><a href="#version">VERSION</a></li>
 	<li><a href="#synopsis">SYNOPSIS</a></li>
@@ -26,11 +31,9 @@
 	<li><a href="#examples">EXAMPLES</a></li>
 	<li><a href="#subroutines">SUBROUTINES</a></li>
 	<ul>
-
 		<li><a href="#import">import</a></li>
 		<li><a href="#unimport">unimport</a></li>
 	</ul>
-
 	<li><a href="#private_subroutines">PRIVATE SUBROUTINES</a></li>
 	<li><a href="#author">AUTHOR</a></li>
 	<li><a href="#bugs">BUGS</a></li>
@@ -41,21 +44,13 @@
 <!-- INDEX END -->
 
 <hr />
-<p>
-<a href="#__index__"><small>Back to top</small></a>
-</p>
-<hr />
 <h1><a name="name">NAME</a></h1>
 <p>lib::tree - Add directory trees to the <code>@INC</code> array at compile time.</p>
-<p>
-<a href="#__index__"><small>Back to top</small></a>
-</p>
+<p><a href="#__index__"><small>Back to top</small></a></p>
 <hr />
 <h1><a name="version">VERSION</a></h1>
 <p>Version 0.05</p>
-<p>
-<a href="#__index__"><small>Back to top</small></a>
-</p>
+<p><a href="#__index__"><small>Back to top</small></a></p>
 <hr />
 <h1><a name="synopsis">SYNOPSIS</a></h1>
 <p>This pragma allows you to specify one or more directories to search for the
@@ -128,9 +123,7 @@ are found).</p>
     #           listed will be added to the @INC array).
     #         * HALT_ON_FIND defaults to 0 (otherwise, only the first matching
     #           directory would be added to the INC array).</pre>
-<p>
-<a href="#__index__"><small>Back to top</small></a>
-</p>
+<p><a href="#__index__"><small>Back to top</small></a></p>
 <hr />
 <h1><a name="usage">USAGE</a></h1>
 <p>Upon finding a directory whose name matches the <code>LIB_DIR</code> parameter in one of
@@ -278,9 +271,7 @@ something like the following code:</p>
         $lib::tree::FS = 'File::Spec::Unix';
         lib::tree-&gt;import('/some/directory/', 'another/directory/');
     }</pre>
-<p>
-<a href="#__index__"><small>Back to top</small></a>
-</p>
+<p><a href="#__index__"><small>Back to top</small></a></p>
 <hr />
 <h1><a name="examples">EXAMPLES</a></h1>
 <dl>
@@ -451,9 +442,7 @@ and are readable).</p>
 <p>The same as <em><strong>Example&nbsp;9</strong></em>, but called in the simple list style.</p>
 </dd>
 </dl>
-<p>
-<a href="#__index__"><small>Back to top</small></a>
-</p>
+<p><a href="#__index__"><small>Back to top</small></a></p>
 <hr />
 <h1><a name="subroutines">SUBROUTINES</a></h1>
 <p>
@@ -470,9 +459,7 @@ array reference), or a simple list (where all values are scalars).</p>
 <p>May be called with a hash, a complex list (that is, a list which starts with an
 array reference), or a simple list (where all values are scalars).</p>
 <p>To see what <code>unimport()</code> is doing, set the <code>DEBUG</code> parameter to true.</p>
-<p>
-<a href="#__index__"><small>Back to top</small></a>
-</p>
+<p><a href="#__index__"><small>Back to top</small></a></p>
 <hr />
 <h1><a name="private_subroutines">PRIVATE SUBROUTINES</a></h1>
 <p>These are listed for completeness, as well as to make it easier for future
@@ -588,22 +575,16 @@ second array reference onto the array referenced by the first value.</p>
 </dd>
 </li>
 </dl>
-<p>
-<a href="#__index__"><small>Back to top</small></a>
-</p>
+<p><a href="#__index__"><small>Back to top</small></a></p>
 <hr />
 <h1><a name="author">AUTHOR</a></h1>
 <p>Calvin Schwenzfeier, <code>&lt;calvin dot schwenzfeier at gmail.com&gt;</code></p>
-<p>
-<a href="#__index__"><small>Back to top</small></a>
-</p>
+<p><a href="#__index__"><small>Back to top</small></a></p>
 <hr />
 <h1><a name="bugs">BUGS</a></h1>
 <p>Please report any bugs or feature requests through GitHub's issue tracker web
 interface at <a href="http://github.com/cschwenz/lib-tree/issues">http://github.com/cschwenz/lib-tree/issues</a>.</p>
-<p>
-<a href="#__index__"><small>Back to top</small></a>
-</p>
+<p><a href="#__index__"><small>Back to top</small></a></p>
 <hr />
 <h1><a name="support">SUPPORT</a></h1>
 <p>You can find documentation for this module with the perldoc command.</p>
@@ -628,9 +609,7 @@ interface at <a href="http://github.com/cschwenz/lib-tree/issues">http://github.
 <p><a href="http://github.com/cschwenz/lib-tree">http://github.com/cschwenz/lib-tree</a></p>
 </li>
 </ul>
-<p>
-<a href="#__index__"><small>Back to top</small></a>
-</p>
+<p><a href="#__index__"><small>Back to top</small></a></p>
 <hr />
 <h1><a name="acknowledgements">ACKNOWLEDGEMENTS</a></h1>
 <p>&nbsp;&nbsp;&nbsp; And again Jesus spoke to them in parables, saying, &ldquo;The Kingdom of
@@ -654,9 +633,7 @@ man was speechless.&nbsp; Then the king said to the attendants, &lsquo;Bind him
 hand and foot, and throw him outside into the dark!&rsquo;&nbsp; In that place
 people will wail and grind their teeth; for many are invited, but few are
 chosen.&rdquo;</p>
-<p>
-<a href="#__index__"><small>Back to top</small></a>
-</p>
+<p><a href="#__index__"><small>Back to top</small></a></p>
 <hr />
 <h1><a name="license_and_copyright">LICENSE AND COPYRIGHT</a></h1>
 <p>Copyright 2010 Calvin Schwenzfeier.</p>
@@ -711,12 +688,14 @@ the terms of either:</p>
 <p>Féach <a href="http://dev.perl.org/licenses/">http://dev.perl.org/licenses/</a> le haghaidh tuilleadh eolais.</p>
 <p>Se <a href="http://dev.perl.org/licenses/">http://dev.perl.org/licenses/</a> för mer information.</p>
 <p><a href="#__index__"><small>Back to top</small></a></p>
-<table border="0" width="100%" cellspacing="0" cellpadding="3">
-<tr><td class="block" style="background-color: #cccccc" valign="middle">
-<big><strong><span class="block">&nbsp;lib::tree</span></strong></big>
-</td></tr>
-</table>
+    </div>
+  </div>
 
+  <div id="footer">
+    <p><big><strong>lib::tree</strong></big></p>
+    <p>&copy;&nbsp;2011 Calvin Schwenzfeier</p>
+  </div>
+</div>
 </body>
-
 </html>
+

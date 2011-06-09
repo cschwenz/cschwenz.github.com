@@ -1,0 +1,402 @@
+body {
+  background: #ffffff;
+  color: #454545;
+  font: 0.8em verdana, arial, helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+a:link {
+  color: #0643bb;
+  background: inherit;
+  text-decoration: underline;
+}
+a:visited {
+  color: #0532aa;
+  background: inherit;
+  text-decoration: underline;
+}
+a:active {
+  color: #990000;
+  background: inherit;
+  text-decoration: none;
+}
+a:hover {
+  color: #d15517;
+  background: inherit;
+  text-decoration: none;
+}
+
+h2 {
+  background: inherit;
+  color: #d15517;
+  font: normal 190% "trebuchet ms", verdana, arial, helvetica, sans-serif; 
+  padding: 0px;
+  margin:30px 0px 0px 16px;
+}
+h3 {
+  background: inherit;
+  color: #5f5f5f; 
+  font: normal 170% "trebuchet ms", verdana, arial, helvetica, sans-serif;
+  padding: 0px;
+  margin: 40px 0px 0px 16px;
+}
+h4 {
+  background: inherit;
+  color: #5f5f5f; 
+  font: normal 170% "trebuchet ms", verdana, arial, helvetica, sans-serif;
+  padding: 0px;
+  margin: 40px 0px 0px 16px;
+}
+h5 {
+  background: inherit;
+  color: #5f5f5f; 
+  font: normal 170% "trebuchet ms", verdana, arial, helvetica, sans-serif;
+  padding: 0px;
+  margin: 40px 0px 0px 16px;
+}
+
+table.project {
+  font-size: inherit;
+  background-color: inherit;
+  border: 0px none transparent;
+}
+thead.project {
+  font-size: inherit;
+}
+tbody.project {
+  font-size: inherit;
+}
+tfoot.project {
+  font-size: inherit;
+}
+tr.project {
+  font-size: inherit;
+}
+tr.projectEven {
+  font-size: inherit;
+  background-color: #ffffff;
+}
+tr.projectOdd {
+  font-size: inherit;
+  background-color: #f1faff;
+}
+th.project {
+  font-size: inherit;
+  background: #e7f1f8 url(/jci/img/tiny.png) repeat-x scroll left top;
+}
+td.project {
+  font-size: inherit;
+  background-color: inherit;
+}
+
+.red {
+  background: inherit;
+  color: #d15517;
+}
+
+#wrapper {
+  width: 100%;
+  float: left;
+  margin: 0px auto 0px auto;
+  padding: 0px;
+}
+#header {
+  width: 100%;
+  float: left;
+  background: #f8fbfd;
+  color: #5f5f5f;
+  margin: 0px;
+  padding: 4px 0px 40px 0px;
+}
+
+#banner {
+  width: 58%;
+  float: left;
+  padding: 0px;
+  margin: 40px 0px 0px 60px;
+}
+#banner h1 {
+  font: normal 220% "trebuchet ms", verdana, arial, helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+#banner h1 a {
+  background: inherit;
+  color: #5f5f5f;
+  text-decoration: none;
+}
+#banner h1 a:visited {
+  background: inherit;
+  color: #5f5f5f;
+  text-decoration: none;
+}
+#banner h1 a:hover {
+  background: inherit;
+  color: #d15517;
+  text-decoration: none;
+}
+
+#menu {
+  float: right;
+  width: 30%;
+  font: normal 100% "trebuchet ms", verdana, arial, helvetica, sans-serif;
+  text-align: right;
+  margin: 4px 19px 4px 0px;
+  padding: 0px;
+}
+
+#menu ul {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+}
+#menu li {
+  padding: 0px;
+  margin: 0px 0px 0px 9px;
+  display: inline;
+  list-style-type: none;
+}
+
+form {
+  margin: 8px 17px 0px 0px;
+  padding: 0px;
+  float: right;
+}
+.search {
+  background: #fcfcfc;
+  padding: 2px;
+  color: #7d7d7d;
+  border: 1px dotted #e1e1e1;
+  margin: 0px;
+}
+
+.button {
+  color: #5f5f5f;
+  background: #e7f1f8 url(/jci/img/small.png) repeat-x scroll left top;
+  border: solid 1px #e1e1e1;
+  cursor: pointer;
+  font: bold 120% "trebuchet ms", verdana, arial, helvetica, sans-serif;
+}
+
+#topmenu {
+  float: left;
+  width: 100%;
+  background: #e7f1f8 url(/jci/img/medium.png) repeat-x scroll left top;
+  color: #000000;
+  text-align: center;
+  padding: 8px 0px 8px 0px;
+  margin: 0px;
+  border-bottom: 1px dotted #bbd8ec;
+  border-top: 1px dotted #bbd8ec;
+}
+
+#topmenu ul {
+  padding: 0px;
+  margin: 0px 0px 0px 14px;
+  list-style-type: none;
+}
+#topmenu li {
+  padding: 0px;
+  margin: 0px;
+  display: inline;
+  list-style-type: none;
+}
+
+#topmenu a {
+  margin: 0px 0px 0px -5px;
+  text-align: center;
+  text-decoration: none;
+  padding: 8px 20px 8px 20px;
+  color: #5f5f5f;
+  border-left: 1px dotted #bbd8ec;
+  background: #e7f1f8 url(/jci/img/medium.png) repeat-x scroll left top;
+  font: bold 130% "trebuchet ms", verdana, arial, helvetica, sans-serif;
+}
+#topmenu a:visited {
+  margin: 0px 0px 0px -5px;
+  text-align: center;
+  text-decoration: none;
+  padding: 8px 20px 8px 20px;
+  color: #5f5f5f;
+  border-left: 1px dotted #bbd8ec;
+  background: #e7f1f8 url(/jci/img/medium.png) repeat-x scroll left top;
+  font: bold 130% "trebuchet ms", verdana, arial, helvetica, sans-serif;
+}
+#topmenu a:hover {
+  color:#d15517;
+  background:#ffffff;
+}
+#topmenu a#last {
+  border-right: 1px dotted #bbd8ec;
+}
+
+#main {
+  width: 80%;
+  padding: 12px 0px 12px 0px;
+  margin: 0px auto 0px auto;
+}
+#main p {
+  padding: 4px 10px 0px 17px;
+  margin: 0px;
+  line-height: 1.4em;
+}
+
+.img {
+  float: left;
+  margin: 4px 6px 3px 4px;
+  padding: 2px;
+}
+.subtitle {
+  padding: 0px;
+  margin: 12px 0px 0px 17px;
+  font: normal 1.4em verdana, arial, helvetica, sans-serif;
+  color: #5f5f5f;
+  background: inherit;
+}
+
+#brdcrmb {
+  float: left;
+  width: 98%;
+  padding: 0px;
+  margin: 20px 0px 50px 16px;
+  background: inherit;
+  color: #4d4d4d;
+  font: normal 100% verdana, arial, helvetica, sans-serif;
+}
+#brdcrmb a {
+  background: inherit;
+  color: #0643bb;
+  text-decoration: underline;
+}
+#brdcrmb a:visited {
+  background: inherit;
+  color: #0643bb;
+  text-decoration: underline;
+}
+#brdcrmb a:hover {
+  background:inherit;
+  color: #d15517;
+  text-decoration: none;
+}
+.bxtitle a:hover {
+  background: inherit;
+  color: #d15517;
+  text-decoration: none;
+}
+
+.pagebox {
+  background: inherit;
+  color: #ffffff;
+  width: 100%;
+  float: left;
+  margin: 30px 0px 0px 0px;
+  padding: 8px 0px 8px 0px;
+  text-align: right;
+}
+.pagebox a {
+  background: #e7f1f8 url(/jci/img/small.png) repeat-x scroll left top;
+  border: 1px dotted #bbd8ec;
+  color: #5f5f5f;
+  font: bold 120% "trebuchet ms", verdana, arial, helvetica, sans-serif;
+  text-decoration: none;
+  margin: 0px 2px 0px 0px;
+  padding:4px 8px 4px 8px;
+}
+.pagebox a:hover {
+  background: #ffffff;
+  color: #d15517;
+  text-decoration: none;
+}
+.buttonbox a {
+  background: #e7f1f8 url(/jci/img/small.png) repeat-x scroll left top;
+  border: 1px dotted #bbd8ec;
+  color: #5f5f5f;
+  font: bold 120% "trebuchet ms", verdana, arial, helvetica, sans-serif;
+  text-decoration: none;
+  margin: 0px 2px 0px 0px;
+  padding: 4px 8px 4px 8px;
+}
+.buttonbox a:hover {
+  background: #ffffff;
+  color: #d15517;
+  text-decoration: none;
+}
+
+.menubox {
+  float: left;
+  padding:6px 0px 6px 0px;
+  margin: 30px 0px 40px 0px;
+  width: 100%;
+}
+
+.menu1 {
+  background:#e7f1f8 url(/jci/img/large.png) repeat-x scroll left top;
+  color: #454545;
+  float: left;
+  width: 31%;
+  padding:2px 0 6px 0;
+  margin-left: 1.7%;
+  display: inline;
+}
+
+.menu2 {
+  background: #e7f1f8 url(/jci/img/large.png) repeat-x scroll left top;
+  color: #454545;
+  float: left;
+  width: 31%;
+  padding: 2px 0px 6px 0px;
+  margin-left: 1.6%;
+}
+.menu3 {
+  background: #e7f1f8 url(/jci/img/large.png) repeat-x scroll left top;
+  color: #454545;
+  float: left;
+  width: 31%;
+  padding: 2px 0px 6px 0px;
+  margin-left: 1.6%;
+}
+
+.menu1 p {
+  padding: 0px 6px 0px 6px;
+  margin: 0px;
+  font: normal 90% verdana, arial, helvetica, sans-serif;
+}
+.menu2 p {
+  padding: 0px 6px 0px 6px;
+  margin: 0px;
+  font: normal 90% verdana, arial, helvetica, sans-serif;
+}
+.menu3 p {
+  padding: 0px 6px 0px 6px;
+  margin: 0px;
+  font: normal 90% verdana, arial, helvetica, sans-serif;
+}
+
+.bxtitle {
+  background: inherit;
+  color: #454545;
+  padding: 2px 0px 0px 0px;
+  margin: 0px 0px 0px 6px;
+  font: normal 140% "trebuchet ms", verdana, arial, helvetica, sans-serif;
+}
+
+#footer {
+  float: left;
+  margin: 20px 0px 0px 0px;
+  clear: both;
+  width: 100%;
+  text-align: center;
+  background: #e7f1f8 url(/jci/img/medium.png) repeat-x scroll left top;
+  color: #404040;
+  padding: 10px 0px 6px 0px;
+  border-top: 1px dotted #bbd8ec;
+  border-bottom: 1px dotted #bbd8ec;
+}
+
+#footer p {
+  margin: 0px;
+  padding: 0px 0px 3px 0px;
+  font: normal 100% "trebuchet ms", verdana, arial, helvetica, sans-serif;
+}
+
