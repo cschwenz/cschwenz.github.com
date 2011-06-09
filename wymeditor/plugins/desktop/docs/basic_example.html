@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Calvin Schwenzfeier's GitHub Projects - WYMeditor Desktop Plugin Basic Example|</title>
+  <link href="/jci/css/style.css" rel="stylesheet" type="text/css" />
+  
+  <!-- Load the jQuery library. -->
+  <script language="JavaScript" type="text/javascript" src="/jci/js/wymeditor/jquery/jquery.js"></script>
+  
+  <!-- Load the WYMeditor code. -->
+  <script language="JavaScript" type="text/javascript" src="/jci/js/wymeditor/wymeditor/jquery.wymeditor.js"></script>
+  
+  <!-- Load the Desktop plugin for WYMeditor. -->
+  <script language="JavaScript" type="text/javascript" src="/jci/js/wymeditor/wymeditor/plugins/desktop/jquery.wymeditor.desktop.js"></script>
+  
+  <!-- The JavaScript code which will initialize WYMeditor and the Desktop plugin. -->
+  <script language="JavaScript" type="text/javascript">
+      $(document).ready(function() {
+          $(".wymeditor").wymeditor({
+              html: '<p>Testing&hellip; <b>Test</b><i>ing</i>&hellip; Hello, World!<\/p>',
+              stylesheet: '/jci/js/wymeditor/wymeditor/skins/styles.css',
+              skin: 'desktop',
+              postInit: function(wym) {
+                  wym.desktop.setParent(wym);
+                  wym.desktop.setDebug(true);
+                  wym.desktop.init(':default');
+              }
+          });
+      });
+  </script>
+</head>
+<body>
+<div id="wrapper">
+  <div id="header">
+    <div id="banner">
+      <h1><a href="index.html">Calvin Schwenzfeier's <span class="red">GitHub</span> Projects</a></h1>
+    </div>
+  </div>
+  
+  <div id="topmenu">
+    <ul><li><big><strong>WYMeditor Desktop Plugin Basic Example</strong></big></li></ul>
+  </div>
+  
+  <div id="main">
+    <div id="brdcrmb"><a href="/">Home</a>&nbsp;|&nbsp;WYMeditor Desktop Plugin Basic Example</div>
+    <div id="content">
+      <form method="POST" action="">
+        <!-- This is where the WYMeditor code will operate. -->
+        <textarea class="wymeditor"></textarea>
+      </form>
+    </div>
+  </div>
+
+  <div id="footer">
+    <p>&copy;&nbsp;2011 Calvin Schwenzfeier</p>
+  </div>
+</div>
+</body>
+</html>
+
